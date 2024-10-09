@@ -1,0 +1,17 @@
+[package]
+name = "my-dapp"
+version = "1.0.0"
+authors = []
+
+[addresses]
+net2dev_addr = "b0815430077376eb097321e7007c14b9ee5ee0b20990b70f7a3626247904013e"
+permissionLessHackathon = "b0815430077376eb097321e7007c14b9ee5ee0b20990b70f7a3626247904013e"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
